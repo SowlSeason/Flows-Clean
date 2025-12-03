@@ -54,7 +54,7 @@ The system follows a microservices-like architecture deployed via Docker Compose
 
      Server [Server Infrastructure]
          --> {FastAPI Replicas}
-         -->|Write| D[JSONL Log Files]
+         -->|Write| [JSONL Log Files]
          -->|Read/Write| [(SQLite - Auth Only)]
         [Archive Manager] -->|Compress/Cleanup|
 
